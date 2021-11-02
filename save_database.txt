@@ -1,0 +1,16 @@
+[index] [word] filecount file/s : file_name word_count
+
+--------------------------------------------------
+[0] [Abcd.] 1 files:	f1.txt 1	
+[0] [are] 1 files:	f1.txt 1	
+[7] [hi] 2 files:	f1.txt 2	f2.txt 2	
+[7] [hello] 1 files:	f1.txt 1	
+[7] [How] 1 files:	f1.txt 1	
+[7] [Hi] 1 files:	f2.txt 1	
+[7] [Hello] 1 files:	f3.txt 1	
+[12] [Masood] 1 files:	f2.txt 1	
+[18] [saud] 2 files:	f1.txt 1	f3.txt 1	
+[24] [you] 1 files:	f1.txt 1	
+[26] [.] 1 files:	f3.txt 1	
+
+--------------------------------------------------

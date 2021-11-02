@@ -60,7 +60,7 @@ int update_word_count(Wlist** head, char* file_name)
     Ltable* l_temp = (*head)->Tlink, *prev = NULL;
     while (l_temp)
     {
-        if (l_temp->filename == file_name)
+        if (!strcmp(l_temp->filename, file_name))
         {
             //update word count
             l_temp->word_count++;

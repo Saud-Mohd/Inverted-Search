@@ -23,7 +23,7 @@ void file_validation_n_file_list(Flist** f_head, char* argv[])
             result = file_insert (f_head, argv[i]);
             if (result == SUCCESS)
             {
-                printf("Successful in Inserting file %s into the File Linked List\n");
+                printf("Successful in Inserting file %s into the File Linked List\n",argv[i]);
             }
             else if (result == REPITITION)
             {

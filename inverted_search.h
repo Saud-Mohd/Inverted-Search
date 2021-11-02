@@ -2,6 +2,7 @@
 #define INVERTED_H
 //header files 
 #include <stdio.h>
+#include <stdio_ext.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
@@ -58,4 +59,13 @@ int update_word_count(Wlist** head, char* file_name);
 
 //display database
 void display_database (Wlist* head[]);
+
+//update database
+void update_database(Wlist* head[], Flist** f_head);
+
+//search database
+void search_database(Wlist* head, char* word);
+
+//save database
+void save_database(Wlist* head[]);
 #endif
